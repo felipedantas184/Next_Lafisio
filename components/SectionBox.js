@@ -40,7 +40,7 @@ const SectionBox = () => {
                     </div>
                     <div className="Column2">
                         <div className="ImgWrap">
-                            <Image src="/lafisioGoals.svg" alt="" width={951} height={428} />
+                            <Image src="/goals.svg" alt="Projetos Lafisio" width={951} height={428} />
                         </div>
                     </div>
                 </div>

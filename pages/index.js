@@ -9,7 +9,14 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Ninja List | Home</title>
+      <title>Lafisio | Home</title>
+      <meta
+        name="Lafisio - UFPI"
+        content="Liga Acadêmica de Fisiologia - UFPI"
+      />
+      <meta name="description" content="Conheça a liga acadêmica de fisiologia da UFPI (Lafisio) e participe das nossas atividades, pesquisas e projetos de extensão!"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
       <meta name="keywords" content="ninjas" />
     </Head>
     <main className={styles.mainContent}>

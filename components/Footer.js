@@ -9,21 +9,21 @@ const Footer = () => {
                     <div className="FooterLinkWrapper">
                         <div className="FooterLinkItems">
                             <h1 className="FooterLinkTitle">Página Inicial</h1>
-                                <Link href="/"><a className="FooterLink">Nossa Missão</a></Link>
-                                <Link href="/"><a className="FooterLink">Nossos Projetos</a></Link>
-                                <Link href="/"><a className="FooterLink">Diretoria</a></Link>
+                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Instagram Lafisio'>Nossa Missão</a>
+                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Instagram Lafisio'>Nossos Projetos</a>
+                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Instagram Lafisio'>Diretoria</a>
                         </div>
                         <div className="FooterLinkItems">
                             <h1 className="FooterLinkTitle">Atividades</h1>
-                                <Link href="/"><a className="FooterLink">Processo Seletivo</a></Link>
-                                <Link href="/"><a className="FooterLink">Curso de Férias</a></Link>
-                                <Link href="/"><a className="FooterLink">Dia do Coração</a></Link>
+                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Instagram Lafisio'>Processo Seletivo</a>
+                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Instagram Lafisio'>Curso de Férias</a>
+                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Instagram Lafisio'>Dia do Coração</a>
                         </div>
                         <div className="FooterLinkItems">
                             <h1 className="FooterLinkTitle">Redes Sociais</h1>
-                                <Link href="/"><a className="FooterLink">Instagram</a></Link>
-                                <Link href="/"><a className="FooterLink">Linkedin</a></Link>
-                                <Link href="/"><a className="FooterLink">Facebook</a></Link>
+                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Instagram Lafisio'>Instagram</a>
+                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Instagram Lafisio'>Linkedin</a>
+                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Instagram Lafisio'>Facebook</a>
                         </div>
                     </div>
                 </div>
@@ -32,16 +32,16 @@ const Footer = () => {
                         <Link href="/"><a className="SocialLogo">Lafisio</a></Link>
                         <small className="WebsiteRights">Lafisio © {new Date().getFullYear()} Todos os direitos reservados</small>
                         <div className="SocialIcons">
-                            <a href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' rel="noreferrer" arial-label='Linkedin' className="SocialIconLink">
+                            <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Instagram' className="SocialIconLink">
                                 <FaInstagram />
                             </a>
-                            <a href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' rel="noreferrer" arial-label='Linkedin' className="SocialIconLink">
+                            <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Email' className="SocialIconLink">
                                 <FaInbox />
                             </a>
-                            <a href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' rel="noreferrer" arial-label='Linkedin' className="SocialIconLink">
+                            <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Linkedin' className="SocialIconLink">
                                 <FaLinkedin />
                             </a>
-                            <a href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' rel="noreferrer" arial-label='Linkedin' className="SocialIconLink">
+                            <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Facebook' className="SocialIconLink">
                                 <FaFacebook />
                             </a>
                         </div>
@@ -82,7 +82,7 @@ const Footer = () => {
                     color: #fff;
                   }
                   .FooterLink:hover {
-                    color: #01bf71;
+                    color: #00b0ff;
                     transition: 0.3s ease-in-out;
                   }
                   .FooterLinkTitle {

@@ -11,9 +11,7 @@ const SectionNew = () => {
                             <h1 className="Heading">QUEBRAR BARREIRAS</h1>
                             <p className="Subtitle">Nosso objetivo é expandir os horizontes da Fisiologia no âmbito acadêmico por meio de diversas ações dentro da Liga!</p>
                             <div className="BtnWrap">
-                                <Link href="/">
-                                    <a className="ButtonStyle">Instagram Lafisio</a>
-                                </Link>
+                                    <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Instagram Lafisio' className="ButtonStyle">Instagram Lafisio</a>
                             </div>
                         </div>
                     </div>
@@ -21,7 +19,7 @@ const SectionNew = () => {
                         <div className="blockTitle"></div>
                         <p className="TopLine">Nossa Missão</p>
                         <div className="ImgWrap">
-                            <Image src="/lafisioGoals.svg" alt="" width={951} height={428} />
+                            <Image src="/lafisioGoals.svg" alt="Missão Lafisio" width={951} height={428} />
                         </div>
                     </div>
                 </div>

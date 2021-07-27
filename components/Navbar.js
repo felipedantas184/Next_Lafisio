@@ -43,7 +43,7 @@ const Navbar = (props) => {
                             </Link>
                         </li>
                         <li className="navBtn">
-                            <Link href="/">
+                            <Link href="/contato">
                                 <a className="navBtnLink">Contato</a>
                             </Link>
                         </li>

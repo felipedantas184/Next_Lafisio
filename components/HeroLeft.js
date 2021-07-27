@@ -23,7 +23,7 @@ const HeroLeft = () => {
                     </div>
                     <div className="Column2">
                         <div className="ImgWrap">
-                            <Image src="/lafisioHero.svg" alt="" width={632} height={530} />
+                            <Image src="/lafisioHero.svg" alt="Lafisio Hero" width={632} height={530} />
                         </div>
                     </div>
                 </div>

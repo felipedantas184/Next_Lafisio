@@ -12,8 +12,10 @@ export default function Home() {
       <title>Ninja List | Home</title>
       <meta name="keywords" content="contact" />
     </Head>
-    <Contact />
-    <SideBar />
+    <main>
+      <Contact />
+      <SideBar />
+    </main>
     </>
   )
 }

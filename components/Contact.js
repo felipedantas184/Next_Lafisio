@@ -62,7 +62,7 @@ const Contact = () => {
                         <div className="blockTitle"></div>
                         <p className="TopLine">Contato</p>
                         <div className="ImgWrap">
-                            <Image src="/chat.svg" alt="" width={951} height={428} />
+                            <Image src="/chat.svg" alt="Contato Lafisio" width={951} height={428} />
                         </div>
                     </div>
                 </div>

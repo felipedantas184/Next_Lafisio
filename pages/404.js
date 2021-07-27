@@ -12,23 +12,37 @@ const NotFound = () => {
   }, [])
 
   return (
-    <div className="not-found">
-      <h1>404</h1>
-      <h2>Oops! That page cannot be found :(</h2>
-      <p>Redirecting to <Link href="/"><a>Homepage</a></Link> for more marmite goodness...</p>
+    <main className="not-found">
+      <h1>Erro 404</h1>
+      <h2>Oops! A página não foi encontrada:(</h2>
+      <p>Redirecionando para <Link href="/"><a className="BackLink">Homepage</a></Link> em alguns segundos ;)...</p>
 
       <style jsx>{`
         .not-found {
-          background: #fff;
-          padding-top: 80px;
+          color: #fff;
+          background: rgb(2,0,36);
+          background: linear-gradient(to left top, rgba(9,90,160,1) 33%, rgba(18, 163, 186,1) 100%);
+          margin-top: -80px;
+          padding: 320px 40px 160px 40px;
           box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
-          transform: rotateZ(-1deg);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
         }
         h1 {
           font-size: 3em;
+          margin-bottom: 32px;
+        }
+        h2 {
+          font-size: 2em;
+          margin-bottom: 16px;
+        }
+        .BackLink {
+          color: #D4D4D4
         }
       `}</style>
-    </div>
+    </main>
   );
 }
  

@@ -16,13 +16,21 @@ const SideBar = (props) => {
             <div className="sideWrapper">
                 <h1 className="navLogo">Lafisio</h1>
                 <ul className="sidebarMenu">
-                    <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Missão</a></Link>
-                    <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Projetos</a></Link>
-                    <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Diretoria</a></Link>
-                    <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Instagram</a></Link>
+                    <li>
+                        <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Missão</a></Link>
+                    </li>
+                    <li>
+                        <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Projetos</a></Link>
+                    </li>
+                    <li>
+                        <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Diretoria</a></Link>
+                    </li>
+                    <li>
+                        <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Instagram</a></Link>
+                    </li>
                 </ul>
                 <div className="sideBtnWrap">
-                    <Link href="/"><a className="sidebarRoute">Contato</a></Link>
+                    <Link href="/contato"><a className="sidebarRoute">Contato</a></Link>
                 </div>
             </div>
 
@@ -38,7 +46,7 @@ const SideBar = (props) => {
                 top: 0;
                 left: 0;
                 transition: 1.3s ease-in-out;
-                opacity: 1
+                opacity: 0
             }
             
             .closeIcon {
