@@ -9,8 +9,10 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Ninja List | Home</title>
-      <meta name="keywords" content="contact" />
+      <title>Contato Lafisio</title>
+      <meta name="keywords" content="Contato, Lafisio" />
+      <meta name="description" content="Entre em contato com a Lafisio por meio das nossas redes sociais!"></meta>
+      <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     </Head>
     <main>
       <Contact />

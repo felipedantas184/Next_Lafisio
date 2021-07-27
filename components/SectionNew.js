@@ -11,7 +11,7 @@ const SectionNew = () => {
                             <h1 className="Heading">QUEBRAR BARREIRAS</h1>
                             <p className="Subtitle">Nosso objetivo é expandir os horizontes da Fisiologia no âmbito acadêmico por meio de diversas ações dentro da Liga!</p>
                             <div className="BtnWrap">
-                                    <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" arial-label='Instagram Lafisio' className="ButtonStyle">Instagram Lafisio</a>
+                                    <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Instagram Lafisio' className="ButtonStyle">Instagram Lafisio</a>
                             </div>
                         </div>
                     </div>

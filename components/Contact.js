@@ -14,30 +14,30 @@ const Contact = () => {
                             
                             <div className="SocialWrap">
                                 <Link href='//www.linkedin.com/in/leonardtlauenstein/'>
-                                    <a target='_blank' arial-label='Linkedin' className="SocialIconLink">
+                                    <a target='_blank' aria-label='Instagram' className="SocialIconLink">
                                         <FaInstagram size={24} />
                                         <p className="SocialLinkText" >Instagram LAFISIO</p>
                                     </a>
                                 </Link>
 
                                 <Link href='//www.linkedin.com/in/leonardtlauenstein/'>
-                                    <a target='_blank' arial-label='Linkedin' className="SocialIconLink">
+                                    <a target='_blank' aria-label='Linkedin' className="SocialIconLink">
                                         <FaLinkedin size={24} />
                                         <p className="SocialLinkText" >Linkedin LAFISIO</p>
                                     </a>
                                 </Link>
 
                                 <Link href='//www.linkedin.com/in/leonardtlauenstein/'>
-                                    <a target='_blank' arial-label='Linkedin' className="SocialIconLink">
+                                    <a target='_blank' aria-label='Facebook' className="SocialIconLink">
                                         <FaFacebook size={24} />
                                         <p className="SocialLinkText" >Facebook LAFISIO</p>
                                     </a>
                                 </Link>
 
                                 <Link href='//www.linkedin.com/in/leonardtlauenstein/'>
-                                    <a target='_blank' arial-label='Linkedin' className="SocialIconLink">
+                                    <a target='_blank' aria-label='Email' className="SocialIconLink">
                                         <FaInbox size={24} />
-                                        <p className="SocialLinkText" >lafisio.ufpi@gmail.com</p>
+                                        <p className="SocialLinkText">lafisio.ufpi@gmail.com</p>
                                     </a>
                                 </Link>
                             </div>
