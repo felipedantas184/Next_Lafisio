@@ -5,7 +5,10 @@ const Hero = () => {
     return ( 
         <div className="heroContainer" id="home">
             <div className="heroBg">
-                <img src="/heroBG.jpg" className="imageBg" alt=""/>
+                <div className="imageBg">
+                    <Image src="/heroBG.jpg" alt="" 
+                    width={600} height={300} />
+                </div>
             </div>
             <div className="heroContent" >
                 <h1 className="heroH1">Aulas Particulares e Cursos</h1>
