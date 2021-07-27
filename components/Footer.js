@@ -32,16 +32,16 @@ const Footer = () => {
                         <Link href="/"><a className="SocialLogo">Lafisio</a></Link>
                         <small className="WebsiteRights">Lafisio © {new Date().getFullYear()} Todos os direitos reservados</small>
                         <div className="SocialIcons">
-                            <a href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' arial-label='Linkedin' className="SocialIconLink">
+                            <a href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' rel="noreferrer" arial-label='Linkedin' className="SocialIconLink">
                                 <FaInstagram />
                             </a>
-                            <a href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' arial-label='Linkedin' className="SocialIconLink">
+                            <a href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' rel="noreferrer" arial-label='Linkedin' className="SocialIconLink">
                                 <FaInbox />
                             </a>
-                            <a href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' arial-label='Linkedin' className="SocialIconLink">
+                            <a href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' rel="noreferrer" arial-label='Linkedin' className="SocialIconLink">
                                 <FaLinkedin />
                             </a>
-                            <a href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' arial-label='Linkedin' className="SocialIconLink">
+                            <a href='//www.linkedin.com/in/leonardtlauenstein/' target='_blank' rel="noreferrer" arial-label='Linkedin' className="SocialIconLink">
                                 <FaFacebook />
                             </a>
                         </div>
