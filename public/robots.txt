@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://lafisio.vercel.app/api/my-sitemap

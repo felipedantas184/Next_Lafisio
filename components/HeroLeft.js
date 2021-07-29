@@ -12,10 +12,10 @@ const HeroLeft = () => {
                             <h2 className="UnderHeading">Liga Acadêmica de Fisiologia - UFPI</h2>
                             <p className="Subtitle">Uma liga acadêmica que desenvolve atividades de ensino, pesquisa e extensão aplicadas à fisiologia</p>
                             <div className="BtnWrap">
-                                <Link href="/">
+                                <Link href="/contato">
                                     <a className="ButtonStyle">Seletivo 2021</a>
                                 </Link>
-                                <Link href="/">
+                                <Link href="/contato">
                                     <a className="ButtonStyle">Edital 2021</a>
                                 </Link>
                             </div>
