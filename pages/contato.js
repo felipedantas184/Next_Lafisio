@@ -11,7 +11,7 @@ export default function Home() {
     <Head>
       <title>Contato Lafisio</title>
       <meta name="keywords" content="Contato, Lafisio" />
-      <meta name="description" content="Entre em contato com a Lafisio por meio das nossas redes sociais!"></meta>
+      <meta name="description" content="LAFISIO CONTATO. Liga Acadêmica de Fisiologia da UFPI. Entre em contato com a Lafisio por meio das nossas redes sociais!"></meta>
       <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     </Head>
     <main>

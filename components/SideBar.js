@@ -30,7 +30,7 @@ const SideBar = (props) => {
                     </li>
                 </ul>
                 <div className="sideBtnWrap">
-                    <Link href="/contato"><a className="sidebarRoute">Contato</a></Link>
+                    <Link href="/contato"><a className="sidebarRoute" onClick={props.toggle}>Contato</a></Link>
                 </div>
             </div>
 
