@@ -9,14 +9,13 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Lafisio | Home</title>
+      <title>Lafisio UFPI| Home</title>
       <meta
         name="Lafisio - UFPI"
         content="Liga Acadêmica de Fisiologia - UFPI"
       />
-      <meta name="description" content="LAFISIO. Liga Acadêmica de Fisiologia da UFPI. Conheça a LAFISIO UFPI e participe das nossas atividades, pesquisas e projetos de extensão!"></meta>
+      <meta name="description" content="LAFISIO. Liga Acadêmica de Fisiologia da UFPI. Conheça a LAFISIO UFPI e participe das nossas atividades, pesquisas e projetos de extensão!" />
       <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-      <meta name="google-site-verification" content="CsqYewy3QltK0Z6AxOJW6bgPsLVfHUj3BNXFKl43V-Q" />
     </Head>
     <main className={styles.mainContent}>
       <HeroLeft />
