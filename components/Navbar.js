@@ -29,26 +29,32 @@ const Navbar = (props) => {
                         <FaBars onClick={props.toggle}/>
                     </div>
                     <ul className="navMenu">
-                        <li className="navItem">
-                            <LinkS  to="SectionNew"
-                                smooth={true} duration={500} spy={true} offset={0}
-                            >
-                                <p className="navLinks">Missão</p>
-                            </LinkS>
+                        <li className="navItem">  
+                            <div className="navLinksBlock">
+                                <LinkS  to="SectionNew"
+                                    smooth={true} duration={500} spy={true} offset={0}
+                                >
+                                    <p className="navLinks">Missão</p>
+                                </LinkS>
+                            </div>
                         </li>
-                        <li className="navItem">
-                            <LinkS  to="SectionBox"
-                                smooth={true} duration={500} spy={true} offset={0}
-                            >
-                                <p className="navLinks">Projetos</p>
-                            </LinkS>
+                        <li className="navItem">  
+                            <div className="navLinksBlock">
+                                <LinkS  to="SectionBox"
+                                    smooth={true} duration={500} spy={true} offset={0}
+                                >
+                                    <p className="navLinks">Projetos</p>
+                                </LinkS>
+                            </div>    
                         </li>
-                        <li className="navItem">
-                            <LinkS  to="SectionTeam"
-                                smooth={true} duration={500} spy={true} offset={0}
-                            >
-                                <p className="navLinks">Diretoria</p>
-                            </LinkS>
+                        <li className="navItem"> 
+                            <div className="navLinksBlock">
+                                <LinkS  to="SectionTeam"
+                                    smooth={true} duration={500} spy={true} offset={0}
+                                >
+                                    <p className="navLinks">Diretoria</p>
+                                </LinkS>
+                            </div>    
                         </li>
                         <li className="navBtn">
                             <Link href="/contato">
@@ -112,6 +118,13 @@ const Navbar = (props) => {
                         height: 80px;
                         margin-right: 16px
                     }
+
+                    .navLinksBlock {
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+                        height: 100%;
+                    }
                     
                     .navLinks {
                         color: #FFF;
@@ -123,7 +136,7 @@ const Navbar = (props) => {
                         cursor: pointer
                     }
                     
-                    .navLinks:active {
+                    .navLinksBlock:active {
                         border-bottom: 3px solid #00b0cb;
                         transition: all 0.1s ease-in-out;
                     }
