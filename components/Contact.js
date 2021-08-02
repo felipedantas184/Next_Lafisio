@@ -13,28 +13,28 @@ const Contact = () => {
                             <p className="Subtitle">Estamos presentes em várias redes sociais prontos para te conhecer e para tirar suas dúvidas! Clique e descubra!</p>
                             
                             <div className="SocialWrap">
-                                <Link href='//www.linkedin.com/in/leonardtlauenstein/'>
+                                <Link href='https://www.instagram.com/lafisio.ufpi/'>
                                     <a target='_blank' aria-label='Instagram' className="SocialIconLink">
                                         <FaInstagram size={24} />
                                         <p className="SocialLinkText" >Instagram LAFISIO</p>
                                     </a>
                                 </Link>
 
-                                <Link href='//www.linkedin.com/in/leonardtlauenstein/'>
+                                <Link href='https://www.linkedin.com/company/lafisioufpi'>
                                     <a target='_blank' aria-label='Linkedin' className="SocialIconLink">
                                         <FaLinkedin size={24} />
                                         <p className="SocialLinkText" >Linkedin LAFISIO</p>
                                     </a>
                                 </Link>
 
-                                <Link href='//www.linkedin.com/in/leonardtlauenstein/'>
+                                <Link href='https://www.facebook.com/lafisio.ufpi'>
                                     <a target='_blank' aria-label='Facebook' className="SocialIconLink">
                                         <FaFacebook size={24} />
                                         <p className="SocialLinkText" >Facebook LAFISIO</p>
                                     </a>
                                 </Link>
 
-                                <Link href='//www.linkedin.com/in/leonardtlauenstein/'>
+                                <Link href='https://mail.google.com/mail/?view=cm&fs=1&to=lafisioufpi@gmail.com'>
                                     <a target='_blank' aria-label='Email' className="SocialIconLink">
                                         <FaInbox size={24} />
                                         <p className="SocialLinkText">lafisio.ufpi@gmail.com</p>
@@ -122,7 +122,7 @@ const Contact = () => {
                     font-weight: 700;
                     letter-spacing: 1.4px;
                     text-transform: uppercase;
-                    margin-top: -70px;
+                    margin-top: -65px;
                     margin-bottom: 80px;
                     margin-left: 20px;
                     font-family: "Exo 2";
@@ -205,7 +205,8 @@ const Contact = () => {
                         padding: 100px 0;
                     }
                     .InfoRow {
-                        grid-template-areas: 'col1' 'col2'
+                        grid-template-areas: 'col1' 'col2';
+                        margin-top: 30px;
                     }
                     .TopLine {
                         font-size: 40px;

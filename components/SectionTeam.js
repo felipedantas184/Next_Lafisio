@@ -13,7 +13,7 @@ const SectionTeam = () => {
                     <div className="teachersUnit">
                         <div className="picDiv"></div>
                         <div className="ImgWrapper">
-                            <Image src="/FelipeLinkedin.jpg" alt="Maria do Carmo Orientadora Lafisio" width={100} height={100}/>
+                            <Image src="/PP/Carminha.jpg" alt="Maria do Carmo Orientadora Lafisio" width={100} height={100}/>
                         </div>
                         <strong className="teachersName">Maria do Carmo</strong>
                         <p className="teachersFunction">Orientadora</p>
@@ -22,7 +22,7 @@ const SectionTeam = () => {
                     <div className="teachersUnit">
                     <div className="picDiv"></div>
                         <div className="ImgWrapper">
-                            <Image src="/FelipeLinkedin.jpg" alt="Luciano da Silva Suborientador Lafisio" width={100} height={100}/>
+                            <Image src="/PP/Luciano.jpg" alt="Luciano da Silva Suborientador Lafisio" width={100} height={100}/>
                         </div>
                         <strong className="teachersName">Luciano da Silva</strong>
                         <p className="teachersFunction">Suborientador</p>
@@ -33,7 +33,7 @@ const SectionTeam = () => {
                     <div className="directorsUnit">
                         <div className="picDivTwo"></div>
                         <div className="ImgWrapper">
-                            <Image src="/FelipeLinkedin.jpg" alt="Francisco Gabriel Presidente Lafisio" width={100} height={100}/>
+                            <Image src="/PP/Francisco.jpg" alt="Francisco Gabriel Presidente Lafisio" width={100} height={100}/>
                         </div>
                         <strong className="directorsName">Francisco Gabriel</strong>
                         <p className="directorsFunction">Presidente</p>
@@ -42,7 +42,7 @@ const SectionTeam = () => {
                     <div className="directorsUnit">
                         <div className="picDivTwo"></div>
                         <div className="ImgWrapper">
-                            <Image src="/FelipeLinkedin.jpg" alt="Alessandro Henrique Vice-Presidente Lafisio" width={100} height={100}/>
+                            <Image src="/PP/Alessandro.jpg" alt="Alessandro Henrique Vice-Presidente Lafisio" width={100} height={100}/>
                         </div>
                         <strong className="directorsName">Alessandro Henrique</strong>
                         <p className="directorsFunction smallFunction">Vice-Presidente</p>
@@ -51,7 +51,7 @@ const SectionTeam = () => {
                     <div className="directorsUnit">
                         <div className="picDivTwo"></div>
                         <div className="ImgWrapper">
-                            <Image src="/FelipeLinkedin.jpg" alt="João Gabriel Ensino Lafisio" width={100} height={100}/>
+                            <Image src="/PP/João.jpg" alt="João Gabriel Ensino Lafisio" width={100} height={100}/>
                         </div>
     
                         <strong className="directorsName">João Gabriel</strong>
@@ -61,7 +61,7 @@ const SectionTeam = () => {
                     <div className="directorsUnit">
                         <div className="picDivTwo"></div>
                         <div className="ImgWrapper">
-                            <Image src="/FelipeLinkedin.jpg" alt="Guilherme Lima Pesquisa Lafisio" width={100} height={100}/>
+                            <Image src="/PP/Guilherme.jpg" alt="Guilherme Lima Pesquisa Lafisio" width={100} height={100}/>
                         </div>
     
                         <strong className="directorsName">Guilherme Lima</strong>
@@ -71,7 +71,7 @@ const SectionTeam = () => {
                     <div className="directorsUnit">
                         <div className="picDivTwo"></div>
                         <div className="ImgWrapper">
-                            <Image src="/FelipeLinkedin.jpg" alt="Arlys Emanuel Extensão Lafisio" width={100} height={100}/>
+                            <Image src="/PP/Arlys.jpg" alt="Arlys Emanuel Extensão Lafisio" width={100} height={100}/>
                         </div>
     
                         <strong className="directorsName">Arlys Emanuel</strong>
@@ -81,7 +81,7 @@ const SectionTeam = () => {
                     <div className="directorsUnit">
                         <div className="picDivTwo"></div>
                         <div className="ImgWrapper">
-                            <Image src="/FelipeLinkedin.jpg" alt="Iury Lorenzo Financeiro Lafisio" width={100} height={100}/>
+                            <Image src="/PP/Iury.jpg" alt="Iury Lorenzo Financeiro Lafisio" width={100} height={100}/>
                         </div>
     
                         <strong className="directorsName">Iury Lorenzo</strong>
@@ -91,7 +91,7 @@ const SectionTeam = () => {
                     <div className="directorsUnit">
                         <div className="picDivTwo"></div>
                         <div className="ImgWrapper">
-                            <Image src="/FelipeLinkedin.jpg" alt="Gabriel Soares Administrativo Lafisio" width={100} height={100}/>
+                            <Image src="/PP/Gabriel.jpg" alt="Gabriel Soares Administrativo Lafisio" width={100} height={100}/>
                         </div>
     
                         <strong className="directorsName">Gabriel Soares</strong>
@@ -173,6 +173,7 @@ const SectionTeam = () => {
                     align-items: center;
                     text-align: center;
                     transition: all .5s ease-in-out;
+                    -webkit-tap-highlight-color: transparent;
                 }
                 .picDiv {
                     width: 100px;
@@ -205,6 +206,7 @@ const SectionTeam = () => {
                     align-items: center;
                     text-align: center;
                     transition: all .5s ease-in-out;    
+                    -webkit-tap-highlight-color: transparent;
                 }
                 .directorsUnit + .directorsUnit {
                     margin-left: 20px;

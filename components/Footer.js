@@ -22,8 +22,8 @@ const Footer = () => {
                         <div className="FooterLinkItems">
                             <h1 className="FooterLinkTitle">Redes Sociais</h1>
                                 <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Instagram Lafisio'>Instagram</a>
-                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Instagram Lafisio'>Linkedin</a>
-                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Instagram Lafisio'>Facebook</a>
+                                <a className="FooterLink" href='https://www.linkedin.com/company/lafisioufpi' target='_blank' rel="noreferrer" aria-label='Instagram Lafisio'>Linkedin</a>
+                                <a className="FooterLink" href='https://www.facebook.com/lafisio.ufpi' target='_blank' rel="noreferrer" aria-label='Instagram Lafisio'>Facebook</a>
                         </div>
                     </div>
                 </div>
@@ -35,13 +35,13 @@ const Footer = () => {
                             <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Instagram' className="SocialIconLink">
                                 <FaInstagram />
                             </a>
-                            <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Email' className="SocialIconLink">
+                            <a href='https://mail.google.com/mail/?view=cm&fs=1&to=lafisioufpi@gmail.com' target='_blank' rel="noreferrer" aria-label='Email' className="SocialIconLink">
                                 <FaInbox />
                             </a>
-                            <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Linkedin' className="SocialIconLink">
+                            <a href='https://www.linkedin.com/company/lafisioufpi' target='_blank' rel="noreferrer" aria-label='Linkedin' className="SocialIconLink">
                                 <FaLinkedin />
                             </a>
-                            <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Facebook' className="SocialIconLink">
+                            <a href='https://www.facebook.com/lafisio.ufpi' target='_blank' rel="noreferrer" aria-label='Facebook' className="SocialIconLink">
                                 <FaFacebook />
                             </a>
                         </div>

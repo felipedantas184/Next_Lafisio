@@ -11,7 +11,7 @@ const SideBar = (props) => {
                 }}
         >
             <div className="icon">
-                <FaTimes className="closeIcon" onClick={props.toggle}/>
+                <FaTimes color="#A4A4A4" className="closeIcon" onClick={props.toggle}/>
             </div>
             <div className="sideWrapper">
                 <h1 className="navLogo">Lafisio</h1>
@@ -26,7 +26,7 @@ const SideBar = (props) => {
                         <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Diretoria</a></Link>
                     </li>
                     <li>
-                        <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Instagram</a></Link>
+                        <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Instagram' className="sidebarLink" onClick={props.toggle}>Instagram</a>
                     </li>
                 </ul>
                 <div className="sideBtnWrap">
@@ -75,6 +75,13 @@ const SideBar = (props) => {
                 text-transform: uppercase;
                 -webkit-tap-highlight-color: transparent;
                 font-family: "Exo 2";
+
+                -webkit-touch-callout: none;  
+                -webkit-user-select: none;    
+                -khtml-user-select: none;     
+                -moz-user-select: none;       
+                -ms-user-select: none;        
+                user-select: none;
             }
             
             .sidebarWrapper{

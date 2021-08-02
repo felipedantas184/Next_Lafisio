@@ -119,7 +119,7 @@ const HeroLeft = () => {
                 }
                 .ButtonStyle:hover {
                     transition: all 0.7s ease-in-out;
-                    background: #000;
+                    background: linear-gradient(to right top, #00b0cb, #5e88fc);
                     color: #fff;                    
                 }
                 .ButtonStyle + .ButtonStyle {
