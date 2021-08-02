@@ -43,14 +43,14 @@ const Contact = () => {
                             </div>
                             
                             <div className="BtnWrap">
-                                <Link href="/">
-                                    <a className="ButtonStyle">
+                                <Link href='https://www.instagram.com/lafisio.ufpi/'>
+                                    <a  target='_blank' aria-label='Instagram' className="ButtonStyle">
                                         <FaInstagram size={24} style={{marginRight: 10}} />
                                         Siga-nos
                                     </a>
                                 </Link>
-                                <Link href="/">
-                                    <a className="ButtonStyle">
+                                <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=lafisioufpi@gmail.com">
+                                    <a target='_blank' aria-label='Email'  className="ButtonStyle">
                                         <FaInbox size={24} style={{marginRight: 10}} />
                                         Email
                                     </a>

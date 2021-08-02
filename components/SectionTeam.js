@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const SectionTeam = () => {
     return ( 
-        <section className="TeamContainer" id="home">
+        <section className="TeamContainer" id="SectionTeam">
             <div className="TeamWrapper" >
                 <h1 className="TeamH1">Diretoria</h1>
                 <div className="TopCornerTwo"></div>

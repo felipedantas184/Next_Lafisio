@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const SectionNew = () => {
     return ( 
-        <section className="InfoContainer">
+        <section id="SectionNew" className="InfoContainer">
             <div className="InfoWrapper">
                 <div className="InfoRow">
                     <div className="Column1">

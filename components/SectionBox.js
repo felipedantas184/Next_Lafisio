@@ -6,7 +6,7 @@ import { FaChalkboardTeacher } from 'react-icons/fa';
 
 const SectionBox = () => {
     return ( 
-        <section className="InfoContainer">
+        <section className="InfoContainer" id="SectionBox">
             <div className="InfoWrapper">
                 <div className="InfoRow">
                     <div className="Column1">

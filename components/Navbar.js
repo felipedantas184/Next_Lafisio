@@ -3,6 +3,8 @@ import Image from "next/image"
 import Link from 'next/link'
 import { FaBars } from 'react-icons/fa';
 
+import { Link as LinkS } from 'react-scroll';
+
 const Navbar = (props) => {
     const [scrollNav, setScrollNav] = useState(false)
     const changeNav = () => {
@@ -28,19 +30,25 @@ const Navbar = (props) => {
                     </div>
                     <ul className="navMenu">
                         <li className="navItem">
-                            <Link href="/">
-                                <a className="navLinks">Missão</a>
-                            </Link>
+                            <LinkS  to="SectionNew"
+                                smooth={true} duration={500} spy={true} offset={0}
+                            >
+                                <p className="navLinks">Missão</p>
+                            </LinkS>
                         </li>
                         <li className="navItem">
-                            <Link href="/">
-                                <a className="navLinks">Projetos</a>
-                            </Link>
+                            <LinkS  to="SectionBox"
+                                smooth={true} duration={500} spy={true} offset={0}
+                            >
+                                <p className="navLinks">Projetos</p>
+                            </LinkS>
                         </li>
                         <li className="navItem">
-                            <Link href="/">
-                                <a className="navLinks">Diretoria</a>
-                            </Link>
+                            <LinkS  to="SectionTeam"
+                                smooth={true} duration={500} spy={true} offset={0}
+                            >
+                                <p className="navLinks">Diretoria</p>
+                            </LinkS>
                         </li>
                         <li className="navBtn">
                             <Link href="/contato">

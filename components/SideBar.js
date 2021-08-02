@@ -1,5 +1,6 @@
 import { FaTimes } from 'react-icons/fa';
 import Link from "next/link"
+import { Link as LinkS } from 'react-scroll';
 
 const SideBar = (props) => {
     return ( 
@@ -17,13 +18,25 @@ const SideBar = (props) => {
                 <h1 className="navLogo">Lafisio</h1>
                 <ul className="sidebarMenu">
                     <li>
-                        <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Missão</a></Link>
+                        <LinkS  to="SectionNew" onClick={props.toggle}
+                            smooth={true} duration={500} spy={true} offset={0}
+                        >
+                            <p className="sidebarLink">Missão</p>
+                        </LinkS>
                     </li>
                     <li>
-                        <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Projetos</a></Link>
+                        <LinkS  to="SectionBox" onClick={props.toggle}
+                            smooth={true} duration={500} spy={true} offset={0}
+                        >
+                            <p className="sidebarLink">Projetos</p>
+                        </LinkS>
                     </li>
                     <li>
-                        <Link href="/"><a className="sidebarLink" onClick={props.toggle}>Diretoria</a></Link>
+                        <LinkS  to="SectionTeam" onClick={props.toggle}
+                            smooth={true} duration={500} spy={true} offset={0}
+                        >
+                            <p className="sidebarLink">Diretoria</p>
+                        </LinkS>
                     </li>
                     <li>
                         <a href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Instagram' className="sidebarLink" onClick={props.toggle}>Instagram</a>
@@ -45,7 +58,7 @@ const SideBar = (props) => {
                 align-items: center;
                 top: 0;
                 left: 0;
-                transition: 1.3s ease-in-out;
+                transition: 0.7s ease-in-out;
                 opacity: 0
             }
             

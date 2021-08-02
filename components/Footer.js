@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { FaFacebook, FaInbox,FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { Link as LinkS } from 'react-scroll';
 
 const Footer = () => {
     return ( 
@@ -9,9 +10,21 @@ const Footer = () => {
                     <div className="FooterLinkWrapper">
                         <div className="FooterLinkItems">
                             <h1 className="FooterLinkTitle">Página Inicial</h1>
-                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Instagram Lafisio'>Nossa Missão</a>
-                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Instagram Lafisio'>Nossos Projetos</a>
-                                <a className="FooterLink" href='https://www.instagram.com/lafisio.ufpi/' target='_blank' rel="noreferrer" aria-label='Instagram Lafisio'>Diretoria</a>
+                                <LinkS  to="SectionNew"
+                                    smooth={true} duration={500} spy={true} offset={0}
+                                >
+                                    <p className="FooterLink">Nossa Missão</p>
+                                </LinkS>
+                                <LinkS  to="SectionBox"
+                                    smooth={true} duration={500} spy={true} offset={0}
+                                >
+                                    <p className="FooterLink">Nossos Projetos</p>
+                                </LinkS>
+                                <LinkS  to="SectionTeam"
+                                    smooth={true} duration={500} spy={true} offset={0}
+                                >
+                                    <p className="FooterLink">Diretoria</p>
+                                </LinkS>
                         </div>
                         <div className="FooterLinkItems">
                             <h1 className="FooterLinkTitle">Atividades</h1>
@@ -94,6 +107,7 @@ const Footer = () => {
                     text-decoration: none;
                     margin-bottom: 0.5rem;
                     font-size: 14px;
+                    cursor: pointer;
                   }
                   .SocialMedia {
                     max-width: 1000px;
